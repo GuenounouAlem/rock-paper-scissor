@@ -1,2 +1,2 @@
-#Rock paper scissor in js 
+# Rock paper scissor in js 
 js basics 
