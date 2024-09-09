@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background: rgb(228, 190, 121);
+}
+
+.button-container {
+    display: flex;
+    gap: 1rem;
+}
+
+.button-container > button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    padding: 0.4rem;
+    color: rgb(50, 145, 145);
+    cursor: pointer;
+}
+
+.reset {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    padding: 0.4rem;
+    color: rgb(3, 4, 4);
+    background-color: brown;
+    cursor: pointer;
+}
+
+.player-choice {
+    color: rgb(57, 109, 111);
+}
+.computer-choice {
+    color: rgb(52, 80, 24);
+}

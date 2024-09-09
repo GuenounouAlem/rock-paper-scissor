@@ -55,22 +55,22 @@ function playRound(playerChoice, computerChoice){
     
 }
 
-function playGame(){
-    for(let i = 0; i < 5; i++){
-        let pcChoice = getComputerChoice();
-        let pChoice = getPlayerChoice();
-        playRound(pChoice, pcChoice);
-    }
-    if (playerScore > computerScore){
-        console.log('The winner is the PLAYER ' + playerScore + ' points');
-    } else if (playerScore < computerScore){
-        console.log('The winner is the COMPUTER ' + computerScore + ' points');
+// function playGame(){
+//     for(let i = 0; i < 5; i++){
+//         let pcChoice = getComputerChoice();
+//         let pChoice = getPlayerChoice();
+//         playRound(pChoice, pcChoice);
+//     }
+//     if (playerScore > computerScore){
+//         console.log('The winner is the PLAYER ' + playerScore + ' points');
+//     } else if (playerScore < computerScore){
+//         console.log('The winner is the COMPUTER ' + computerScore + ' points');
         
-    } else {
-        console.log('EVEN MATCH NO WINNER ' + computerScore + ' ' + playerScore);
+//     } else {
+//         console.log('EVEN MATCH NO WINNER ' + computerScore + ' ' + playerScore);
         
-    }
-}
+//     }
+// }
 
 
 
